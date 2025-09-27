@@ -1,0 +1,451 @@
+# Copyright (C) 2021 Paywall for WooCommerce 3.0.0
+# This file is distributed under the same license as the Paywall for WooCommerce 3.0.0 package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Paywall for WooCommerce 3.0.0\n"
+"Report-Msgid-Bugs-To: support@tiv.net\n"
+"POT-Creation-Date: 2023-10-19 16:16+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.3\n"
+
+msgid "Paywall for WooCommerce"
+msgstr "Paywall voor WooCommerce"
+
+msgid "https://woocommerce.com/products/paywall/"
+msgstr "https://woocommerce.com/products/paywall/"
+
+msgid "Pay to view premium content WooCommerce products."
+msgstr "Betaal om premium-content via WooCommerce-producten te bekijken."
+
+msgid "TIV.NET"
+msgstr ""
+
+msgid "https://tivnet.com/"
+msgstr ""
+
+msgid "Paywall"
+msgstr "Paywall"
+
+msgid "Hide description?"
+msgstr "Beschrijving verbergen?"
+
+msgid "Do not show the description until paid"
+msgstr "Laat de beschrijving niet zien totdat deze is betaald"
+
+msgid "Hidden media URL"
+msgstr "Verborgen media-URL"
+
+msgid "When paid, this media will be shown instead of the product image."
+msgstr ""
+"Tegen betaling wordt deze media getoond in plaats van de productafbeelding."
+
+msgid "Enter URL"
+msgstr "URL invoeren"
+
+msgid "Visible media URL"
+msgstr "Zichtbare media-URL"
+
+msgid ""
+"This will be shown instead of the product image until paid (a video trailer, "
+"for example)"
+msgstr ""
+"Dit wordt weergegeven in plaats van de productafbeelding totdat het wordt "
+"betaald (bijvoorbeeld een videotrailer)"
+
+msgid "Please proceed with the payment."
+msgstr "Ga door met de betaling."
+
+msgid "Paywall Pass"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Custom expiration?"
+msgstr "Aangepaste vervalling?"
+
+msgid "Check to override the default expiration settings for this product"
+msgstr ""
+"Vink deze optie aan om de standaard vervalinstellingen voor dit product te "
+"overschrijven"
+
+msgid "Purchases expire after"
+msgstr "Aankopen verlopen na"
+
+msgid "1 hour to 365 days; 0 - never expire"
+msgstr "1 uur tot 365 dagen; 0 - verloopt nooit"
+
+msgid "Admin view as Paid"
+msgstr ""
+
+msgid "Admin view as Unpaid"
+msgstr ""
+
+msgid "Reset Admin view"
+msgstr ""
+
+#. translators: %1$s - Paywall for WooCommerce, %2$s - link to woocommerce.com, %3$s - required WooCommerce version
+msgid "%1$s requires %2$s version %3$s+ to be installed and active."
+msgstr ""
+
+msgid "Reset Paywall settings"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid ""
+"This tool will reset all Paywall settings to default. This action cannot be "
+"reversed."
+msgstr ""
+
+#. translators: %d - number of records
+msgid "Paywall settings have been reset. Number of records deleted: %d."
+msgstr ""
+
+msgid "There was an error resetting Paywall (or it was already reset)."
+msgstr ""
+
+#. translators: %s - placeholder for text to display.
+msgctxt "alter"
+msgid "Replace with \"%s\""
+msgstr ""
+
+msgid "For products available for purchasing:"
+msgstr ""
+
+msgid "For out-of-stock products:"
+msgstr ""
+
+msgid "For products already the Cart:"
+msgstr ""
+
+msgid "For purchased and not yet expired products:"
+msgstr ""
+
+msgctxt "alter"
+msgid "Premium content"
+msgstr "Premium-inhoud"
+
+msgctxt "alter"
+msgid "Checkout"
+msgstr "Afrekenen"
+
+msgctxt "alter"
+msgid "View"
+msgstr "Bekijk"
+
+msgid "Redirect to the product page"
+msgstr ""
+
+msgid "Redirect to the Checkout page"
+msgstr "Omleiden naar de afrekenpagina"
+
+msgctxt "alter"
+msgid "In cart"
+msgstr "In winkelwagen"
+
+msgctxt "alter"
+msgid "Paid"
+msgstr "Betaald"
+
+msgctxt "alter"
+msgid "Replace with a blank string"
+msgstr ""
+
+msgctxt "Expiration Units"
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "uur"
+msgstr[1] "uren"
+
+msgctxt "Expiration Units"
+msgid "day"
+msgid_plural "days"
+msgstr[0] "dag"
+msgstr[1] "dagen"
+
+msgid "Already in the shopping cart."
+msgstr "Reeds aanwezig in de winkelwagen."
+
+msgid "Another Paywall Pass already in the shopping cart."
+msgstr ""
+
+msgid "A Paywall Pass is active."
+msgstr ""
+
+msgid "ATTENTION: you should log in."
+msgstr "LET OP: u moet inloggen."
+
+msgid "You must be a registered customer to purchase this product."
+msgstr ""
+
+msgid "Thank you for purchasing!"
+msgstr "Bedankt voor uw aankoop!"
+
+#. translators: %s holds the expiration days/hours/...
+msgid "Access ends in %s"
+msgstr "Toegang eindigt op %s"
+
+msgid "Login or register a new account:"
+msgstr "Log in of maak een nieuw account:"
+
+msgid "Go to My Account page"
+msgstr "Ga naar mijn account"
+
+msgid ""
+"We recommend you to create an account so you can access the premium content "
+"you purchased anytime."
+msgstr ""
+"We raden u aan een account aan te maken, zodat u altijd toegang heeft tot de "
+"premium-inhoud die u hebt gekocht."
+
+#. translators: %1$d %2$s -- N month(s)/day(s)/hour(s).
+msgid ""
+"Registered customers keep access to premium products for up to %1$d %2$s "
+"after purchase."
+msgstr ""
+"Geregistreerde klanten behouden na aankoop toegang tot premiumproducten tot "
+"%1$d %2$s."
+
+msgid ""
+"Registered customers have unlimited access to this product after purchase. "
+"No expiration."
+msgstr ""
+"Geregistreerde klanten hebben na aankoop onbeperkt toegang tot dit product. "
+"Geen vervaldatum."
+
+msgid ""
+"Registered customers keep access to this product for %1$d %2$s after "
+"purchase."
+msgstr ""
+"Geregistreerde klanten behouden na aankoop toegang tot dit product voor %1$d "
+"%2$s."
+
+msgid "Redirect to the Cart page"
+msgstr "Omleiden naar de winkelwagenpagina"
+
+msgid "Set expiration date/time:"
+msgstr ""
+
+#. translators: %s holds the Time zone string.
+msgid "(Time zone: %s)"
+msgstr ""
+
+msgid ""
+"If set, access to all Paywall products in this order will expire at the date/"
+"time specified."
+msgstr ""
+
+msgid "To remove, make this field blank and save the order."
+msgstr ""
+
+msgid "Sorry, your browser does not support this type of input field"
+msgstr ""
+
+#. translators: %s - placeholder for date.
+msgid "Paywall: Order expiration set to: %s"
+msgstr ""
+
+msgid "Paywall: Order expiration removed"
+msgstr ""
+
+#. translators: %s is placeholder for the page name.
+msgid "Endpoint for the \"My account &rarr; %s\" page."
+msgstr ""
+
+msgid "Purchased products"
+msgstr "Gekochte producten"
+
+msgctxt "settings"
+msgid "-- Do not change the default settings --"
+msgstr "-- Geen veranderingen. Volg de WooCommerce-instellingen --"
+
+msgid "Add-to-cart behavior for Paywall products"
+msgstr ""
+
+#. translators: %s is a related settings name (text from Woo).
+msgid "This setting is ignored because \"%s\" is checked in the Products tab."
+msgstr ""
+"Opmerking: deze instelling werkt alleen als \"%s\" is uitgeschakeld in het "
+"tabblad Producten. Het is nu aangevinkt, dus de instelling wordt genegeerd."
+
+msgid "When a product added to Cart:"
+msgstr "Wanneer een Paywall-product aan winkelwagen is toegevoegd:"
+
+msgid "Add-to-cart button texts for Paywall products"
+msgstr ""
+
+msgid "Add-to-cart button URLs for Paywall products"
+msgstr ""
+
+msgid ""
+"For better shopping experience with Paywall products, the buttons on Shop "
+"pages can be redirected depending on the product state: available, already "
+"in the cart, etc."
+msgstr ""
+
+msgid ""
+"When you modify these settings, do not forget to adjust the button texts "
+"accordingly."
+msgstr ""
+
+msgid "Alter displayed prices for Paywall products"
+msgstr ""
+
+msgid "Cache"
+msgstr ""
+
+msgid ""
+"If a page caching is used, cache buster is needed for not logged-in visitors "
+"to see their versions of the pages, and not cached by someone else."
+msgstr ""
+
+msgid ""
+"The WP_CACHE constant is set. Please check the page caching settings. You "
+"might need the cache buster for Paywall to operate correctly."
+msgstr ""
+
+msgid "Enable cache buster?"
+msgstr ""
+
+msgid "Default expiration settings"
+msgstr "Verloopinstellingen"
+
+msgid ""
+"This setting applies to the purchases made by registered users. Guest "
+"customers will be able to access the paid products until the expiration of "
+"their WooCommerce session."
+msgstr ""
+"Deze instelling is van toepassing op de aankopen gedaan door geregistreerde "
+"gebruikers. Gastklanten hebben toegang tot de betaalde producten tot het "
+"verstrijken van hun WooCommerce-sessie."
+
+msgid "Paywall purchases expire after"
+msgstr "Standaard verlopen Paywall-aankopen na"
+
+msgid "Show default expiration at checkout?"
+msgstr "Standaard vervaldatum tonen bij afrekenen?"
+
+msgid "If checked, the default expiration will be shown on the Checkout page."
+msgstr ""
+"Indien aangevinkt, wordt de standaard vervaldatum weergegeven op de Checkout-"
+"pagina."
+
+msgid "Show custom expiration on Paywall product pages?"
+msgstr "Aangepaste vervaldatum weergeven op afzonderlijke productpagina's?"
+
+msgid ""
+"If checked, the product-specific expiration will be shown on the single "
+"product page, before purchase."
+msgstr ""
+"Indien aangevinkt, wordt de productspecifieke vervaldatum vóór aankoop op de "
+"enkele productpagina weergegeven."
+
+msgid ""
+"Thank you for installing the Paywall extension! We appreciate your business!"
+msgstr ""
+
+#. translators: placeholders for HTML "a" tag linking 'here' to the Support page.
+msgid ""
+"Please configure the settings using the instructions below. Should you need "
+"help, please contact our technical support by clicking %1$shere%2$s."
+msgstr ""
+"Configureer de instellingen met behulp van de onderstaande instructies. Als "
+"je hulp nodig hebt, neem dan contact op met onze technische ondersteuning "
+"door %1$shier%2$s te klikken."
+
+#. translators: placeholders for HTML "a" tag linking 'here' to the Support page.
+msgid ""
+"To change the texts that Paywall extension outputs, or to translate them to "
+"another language, you can use %1$sLoco Translate%2$s or a similar plugin."
+msgstr ""
+
+msgid "Logging settings"
+msgstr ""
+
+msgid "View logs"
+msgstr ""
+
+msgid "Log level"
+msgstr ""
+
+msgid "What to write to the log file."
+msgstr ""
+
+msgid "Nothing"
+msgstr ""
+
+msgid "Error conditions"
+msgstr ""
+
+msgid "Informational messages"
+msgstr ""
+
+msgid "Debug-level messages"
+msgstr ""
+
+msgid "Debug with tracing"
+msgstr ""
+
+msgid "Product options"
+msgstr ""
+
+msgid "Show download buttons?"
+msgstr ""
+
+msgid ""
+"When a Paywall product has downloads, the download buttons will be shown on "
+"the product page after purchase."
+msgstr ""
+
+msgid "Force `Sold individually`?"
+msgstr ""
+
+msgid ""
+"If checked, then \"Sold individually\" is set for all Paywall products "
+"(Recommended)."
+msgstr ""
+
+msgid "Show Paywall messages on Cart changes?"
+msgstr ""
+
+msgid ""
+"If checked, show Paywall-specific messages when a Paywall product is added "
+"to the Cart (Recommended)."
+msgstr ""
+
+msgid "Show \"Purchased Products\" on the \"Order received\" page?"
+msgstr ""
+
+msgid "Before order details"
+msgstr ""
+
+msgid "After order details"
+msgstr ""
+
+msgid "Do not show"
+msgstr ""
+
+msgctxt "Settings tab title"
+msgid "Paywall"
+msgstr "Paywall"
+
+msgid "You can also see this list on the Account page."
+msgstr "U kunt deze lijst ook bekijken op de pagina Account."
+
+msgid "Expires in"
+msgstr "Vervalt in"
+
+#~ msgid "TIV.NET INC"
+#~ msgstr "TIV.NET INC"
+
+#~ msgid "https://profiles.wordpress.org/tivnetinc/"
+#~ msgstr "https://profiles.wordpress.org/tivnetinc/"

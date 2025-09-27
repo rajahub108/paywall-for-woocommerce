@@ -1,0 +1,220 @@
+*** Paywall for WooCommerce ***
+
+2023-11-14 - version 4.1.1
+* Fix: "Sold individually" was forced for Paywall products regardless of the settings in Admin.
+* Changes in the "video" HTML tag (MP4):
+* Attribute `preload="metadata"` added,
+* Filter `tivwp_video_attributes` applied to the attribute list,
+* CSS class changed to `tivwp-video` to avoid a browser console error.
+* WC tested up to: 8.2.2
+* WP tested up to: 6.4.1
+
+2023-11-10 - version 4.1.0
+* Fix: Stock management was disabled for Paywall products by mistake.
+* Tweak: Do not append order key to the "View" links for the registered users.
+
+2023-10-26 - version 4.0.2
+* Fix: Paywall product type was defined as not downloadable by mistake.
+
+2023-10-20 - version 4.0.1
+* WC tested up to: 8.2.1
+* WP tested up to: 6.3.2
+* Fix: Do not use Cache Buster on products other than Paywall.
+
+2023-10-01 - version 4.0.0
+* Major refactoring. Not a public release.
+* Added: Paywall Pass product.
+
+2023-08-29 - version 3.12.0
+* WC tested up to: 8.0.2
+* WP tested up to: 6.3.1
+* Requires PHP: 7.2
+* Fix: Show `View` button after the Order only for the Paywall products.
+
+2023-05-31 - version 3.11.0
+* WC tested up to: 7.7.1
+* Added: Buttons to add shortcodes to the product descriptions.
+* Tweak: Use `video` and `audio` tags instead of WP media shortcodes, which some themes display incorrectly.
+
+2023-05-20 - version 3.10.0
+* Fix: Error when some HTML tags are broken by 3rd party (e.g., by the Astra Pro plugin).
+* Added: Support for YouTube Shorts, YouTube Playlists, Issuu, TED and TikTok.
+* Added: Admin bar menu to view Paywall product as Paid/Unpaid.
+* WC tested up to: 7.7.0
+* WP tested up to: 6.2.2
+
+2023-04-10 - version 3.9.3
+* WC tested up to: 7.5.1
+* WP tested up to: 6.2
+* Tweak: Settings tab cosmetics
+
+2022-11-30 - version 3.9.2
+* Fix: Correct "Order Again" links on the "Purchased Products" page in My Account.
+* Tweak: Additional checks for `$purchased_product->is_active()` in some places.
+* WP tested up to: 6.1.1
+
+2022-10-31 - version 3.9.1
+* Fix: "Access ends in..." incorrectly displayed in some cases.
+* WP tested up to: 6.0.3
+
+2022-10-28 - version 3.9.0
+* WC tested up to: 7.1.0
+* Added: compatibility with HPOS (Custom Order Tables)
+
+2022-10-15 - version 3.8.1
+* WC tested up to: 7.0.0
+* Fix: Support 3rd party plugins incorrectly calling the `woocommerce_order_item_meta_end` action.
+
+2022-09-08 - version 3.8.0
+* WC tested up to: 6.8.2
+* WP tested up to: 6.0.2
+* Added: Setting 'Show "Purchased Products" on the "Order received" page?' - at the top, bottom, or nowhere.
+* Fix: Removed debug link in the order email.
+
+2022-08-03 - version 3.7.0
+* WC tested up to: 6.7.0
+* Fix: a PHP8.1 warning about passing `null` to `str_starts_with`.
+* Added: `View` link to Paywall products in the `Order Completed` email.
+
+2022-07-04 - version 3.6.0
+* WC tested up to: 6.6.1
+* Added: "Show Paywall messages on Cart changes?" setting.
+
+2022-06-12 - version 3.5.0
+* WC tested up to: 6.5.1
+* WP tested up to: 6.0
+* Added: Support for "WP Super Cache" and "WP Rocket" caching plugins with no "Unique URLs" required.
+* Added: Setting to enable/disable the "Sold individually" product option.
+
+2022-05-05 - version 3.4.1
+* Fix: Make the "Unique URLs" feature optional and disabled by default.
+
+2022-05-04 - version 3.4.0
+* WC tested up to: 6.4.1
+* WP tested up to: 5.9.3
+* Added: Unique URLs for not logged-in buyers (important when page caching plugins are used).
+
+2022-01-17 - version 3.3.2
+* WC tested up to: 6.1.0
+* Fix: Enable Google/Apple Pay buttons in WooCommerce Stripe Gateway.
+
+2021-12-20 - version 3.3.1
+* WC tested up to: 6.0.0
+* WP tested up to: 5.8.2
+* Fix: Paywall products can now be created using REST calls.
+* Fix: Display expiration terms at checkout only if a Paywall product is in the cart.
+* Internal: Product class moved out of the WOOPAYWALL namespace because some places in Woo code do not support namespaced products.
+* Internal: code cleanup.
+
+2021-07-24 - version 3.3.0
+* WC tested up to: 5.5.2
+* WP tested up to: 5.8
+* Added: Administrator can override date/time of Paywall products expiration in orders.
+
+2021-07-10 - version 3.2.1
+* Fix: Video alignment when theme uses FitVids (Divi, etc.). Divi users: please remove the custom CSS provided by our support.
+
+2021-07-09 - version 3.2.0
+* Added: Show time to expire on single product pages and in My Account.
+* Fix: When an order has no "Date paid" meta, use "Completed" or "Created" to check the expiration.
+
+2021-06-13 - version 3.1.0
+* WC requires at least: 5.0
+* WC tested up to: 5.4.1
+* Added: Integration with WPML: paid product is visible on all product translations.
+* Fix: Notice 'Order properties should not be accessed directly'
+
+2021-05-08 - version 3.0.6
+* WC tested up to: 5.2.2
+* Fix: (Order Received page) Support themes that do not have the `woocommerce_before_thankyou` action.
+
+2021-04-06 - version 3.0.5
+* Fix the `Call to a member function get() on null` error when there is no session (Session.php).
+
+2021-03-14 - version 3.0.4
+* WC tested up to: 5.1.0
+* Fix: Consider non-UTC time zone when checking expiration.
+* Tweak: Do not show expiration terms if product is not purchasable.
+
+2021-03-07 - version 3.0.3
+* WC tested up to: 5.0.0
+* Tweak: Do not alter 'Add to cart' text for zero-priced products that are not yet paid/in cart/checkout.
+
+2021-01-16 - version 3.0.2
+* Fix: A PHP8 error when pretty permalinks are not enabled.
+
+2021-01-12 - version 3.0.1
+* ATTENTION: 3.x is a major release change. Please run on a test/staging site first!
+* WC tested up to: 4.9.0
+* Fix: A fatal error in PHP8 (missing "static" in function declaration).
+
+2021-01-09 - version 3.0.0
+* ATTENTION: this is a major release change. Please run on a test/staging site first!
+* WC requires at least: 4.0
+* WC tested up to: 4.8.0
+* Requires PHP: 5.6
+* Added: Tab on "My account" page showing the purchased Paywall products.
+* Added: Shortcode [woopaywall_purchased_products] to show the purchased Paywall products.
+* Added: Various settings related to button texts and URLs for Paywall products.
+* Added: Template engine to allow themes to change some output related to Paywall.
+* Added: partial translations de_DE, es_ES, it_IT, nl_NL, pl_PL, ru_RU, sv_SE.
+* Fix: (Multilingual) Translations were loaded too early.
+* Fix: "Thanks for purchasing" message displayed randomly after ordering.
+
+2020-10-16 - version 2.3.0
+* Added: Support for Cloudflare stream URLs (https://iframe.videodelivery.net/$VIDEOID).
+
+2020-10-13 - version 2.2.0
+* Added: Administrators can preview a Paywall product as it was "paid" by appending ?paywall_status=paid to the URL.
+* Added: Support for audio files (mp3, wav, etc.).
+
+2020-10-08 - version 2.1.1
+* Fix: The "Virtual" checkbox was disabled for regular products.
+
+2020-09-10 - version 2.1.0
+* Added: Paywall products can be "Downloadable".
+* Added: Show download buttons on the Paywall product pages after purchase.
+* Added: Paywall section in WooCommerce Status.
+* Added: Reset Paywall settings action in WooCommerce Tools.
+* WC tested up to: 4.5.1
+
+2020-08-27 - version 2.0.4
+* Fix: Enable stock management for Paywall products.
+
+2020-08-25 - version 2.0.3
+* Fix: (Vimeo) Correct handling of URLs like `https://vimeo.com/event/999999/embed`.
+
+2020-08-22 - version 2.0.2
+* Fix: Vimeo display broken by some themes ("Bridge").
+* Fix: MP4 video overlapping description.
+* Added: nl_NL translation.
+* WP tested up to: 5.5
+* WC tested up to: 4.4.1
+
+2020-07-06 - version 2.0.1
+* Fix: Error when ordering non-Paywall products.
+
+2020-06-21 - version 2.0.0
+* Fix: PDF aspect ratio - more vertical space.
+* Fix: Vimeo embedding - previously did not fill in the available space.
+* Fix: Prevent fatal error when shopping cart does not exist.
+* Added: CSS classes `in-cart` and `ok-to-view` in product archive views.
+* Added: Price is replaced with 'Paid' for products already purchased.
+* Added: Shortcode `woopaywall_show_after_purchase` to show content after purchase.
+* Added: Handle YouTube short URLs (youtu.be).
+* Added: Expiration settings for Paywall products purchased by registered users.
+* Added: Integration with `Name Your Price v.3` extension.
+* Added: Paywall tab in WooCommerce settings.
+* Added: Product class and status in WooCommerce Blocks grid.
+* Added: Support for direct video URLs (mp4, mov, webm, etc.).
+
+2020-05-06 - version 1.1.0
+* Added: Shortcode `woopaywall_hide_after_purchase` to hide content after purchase.
+
+2020-02-12 - version 1.0.1
+* Fix: General product data tab hidden under certain conditions when adding a new product.
+* Fix: Invalid product type detection causing fatal errors.
+* Added: `ru_RU` translations.
+
+2020-02-01 - version 1.0.0
+* The first stable version.

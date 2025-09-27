@@ -1,0 +1,2 @@
+# paywall-for-woocommerce
+

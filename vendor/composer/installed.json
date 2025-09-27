@@ -1,0 +1,56 @@
+{
+    "packages": [
+        {
+            "name": "tivnet/tivwp",
+            "version": "1.12.4",
+            "version_normalized": "1.12.4.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:tivnet/tivwp.git",
+                "reference": "b913a7d9878a38d5e85f45d406274c7063141f03"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tivnet/tivwp/zipball/b913a7d9878a38d5e85f45d406274c7063141f03",
+                "reference": "b913a7d9878a38d5e85f45d406274c7063141f03",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "9.5.26"
+            },
+            "time": "2023-05-30T20:33:55+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "TIVWP\\": "src"
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Gregory Karpinsky",
+                    "homepage": "https://tiv.net/"
+                }
+            ],
+            "description": "TIV.NET WordPress Framework",
+            "homepage": "https://tiv.net/",
+            "keywords": [
+                "WordPress",
+                "framework"
+            ],
+            "support": {
+                "source": "https://github.com/tivnet/tivwp/tree/1.12.4",
+                "issues": "https://github.com/tivnet/tivwp/issues"
+            },
+            "install-path": "../tivnet/tivwp"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
